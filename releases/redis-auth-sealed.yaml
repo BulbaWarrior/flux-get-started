@@ -1,0 +1,21 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: redis-auth
+  namespace: demo
+spec:
+  encryptedData:
+    values.yaml: AgA+lD+uh+A62xZLSzqTs260513A0CFABiuaAtUsD8nWAUNLv+jHzgEURdbZzoN+p/Vc+jCQZwv19S/6xOzxNk8XdgvtSH/RWx6DT/HmflrLDNW44ifo+Xqw0dJTC+SXaUSl/T0Gy5POYY5F/JB3qe9AnGoDG/B0HMy4whKWzP4u0J0LrDiX8vHNi3GKlBtrgSfFCw4CuzeJgL0keR2uPlESO9L8sjzloDWNbXf7diUtqqqPWrBRKHQ2WToDwSzt3f4+0sGq6fybS1gu49mZuGIjJcFLY1MITgl6+TTvanzHac/dtISVnLm9GilicS52q/I0mTJfIiINhcri7GVgueKhx5qwv5H97Uq9Xs6NbeFc0sRUSN1WAACtCqYZB28jVRzDKO9xc4+Na7Z5ktLsJGbn7gKiMnhUZhJV93jZoADjtFX4/7HJ8hd0HrVUfrclmqqh00q27FQJHZx2DpG50qxWAqLqb6CJc6jlcHbAToUALAKGd0uGmlYUcGvVazZni0W/m0Zlwby+2yNpB3e8X4ldaQcUukftPTTjIq20kWW4ATeqYZcaNnQmQ+DkGf40GOm3W1BGOn7b6WcOpqZfpqUWHI3MjrDNPii1nw0D12ytDykzqL2y69Xn1WqOw5GKXk74JUzPSFSTIkXkO4ke8KW7kpCY2CyLvkduRJjLKJwn6nyrb/n/+d/KVba4oQ8Qg7nnSKcMps8VVqOOkKbvgEE=
+  template:
+    data: null
+    metadata:
+      annotations:
+        fluxcd.io/sync-checksum: 18d66cc75bfa8a071410874b20f16d12e4745d74
+      creationTimestamp: null
+      labels:
+        fluxcd.io/sync-gc-mark: sha256.6Xnpn60X0VY9M3UjbM-2TRDGOu9qgH9iyJqhvooDKtg
+      name: redis-auth
+      namespace: demo
+    type: Opaque
+
